@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Press+Start+2P');
+
+/*Elements*/
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    background:navy;
+}
+
+button {
+    display: flex;
+    align-self: center;
+    margin-bottom: 2em;
+}
+
+h1 {
+    margin: 2em;
+    display: flex;
+    align-self: center;
+    color: #f9f9f9;
+    font-family: 'Press Start 2p', Courier, sans-serif;
+}
+
+
+/*IDs*/
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+/*Classes*/
+.friend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: initial;
+    flex-wrap: wrap;
+
+    position: relative;
+    width: 50%;
+    background-color: #f9f9f9;
+}
+
+.friend h3 {
+    font-size: 2em;
+    font-family: 'Cutive Mono', monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.friend p {
+    font-size: .6em;
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+}
+
+.friend p:last-child{
+    margin-bottom: 50px;
+}
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+

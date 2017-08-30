@@ -1,0 +1,89 @@
+/* compile with $ lessc (path + name of this file) (name of output) */
+
+@dimension: 600px;
+@canvas-bg: lightgray;
+@rectangle-color: green;
+@square-color: red;
+@triangle-color: yellow;
+@circle-color: purple;
+
+
+h3 {
+    font-size: 1.4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4 {
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#upper {
+    columns: 2;
+    border: 2px solid darkblue;
+}
+
+#inputs {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    background-color: lightblue;
+    border: 2px solid darkblue;
+}
+
+#information {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    background-color: lightgray;
+    border: 2px solid darkgray;
+}
+
+#display {
+    position: relative;
+    height: @dimension;
+    width: @dimension;
+    background-color: @canvas-bg;
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.circle {
+    background-color: purple;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.square {
+    background-color: red;
+    position: absolute;
+    overflow: hidden;
+}
+
+.triangle {
+    background-color: transparent;
+    position: absolute;
+    overflow: hidden;
+}
+
+.rectangle {
+    background-color: green;
+    position: absolute;
+    overflow: hidden;
+}
+
+/* 
+    .shape {
+        cursor: pointer;
+    
+        &.rectangle {
+            background-color: blue;
+            }
+        }
+
+        The & operator effectively turns it into .shape.rectangle (two classes on element).
+*/

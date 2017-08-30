@@ -1,0 +1,33 @@
+button {
+    display: block;
+    width: 100%;
+}
+
+p {
+    opacity: 0;
+    margin-left: 50%;
+    margin-top: 50%;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.show {
+    opacity: 1;
+    margin-left: 50%;
+    margin-top: 50%;
+    font-size: 1.4em;
+    color: #ffffff;
+
+}
+
+.square {
+    background: #001;
+    height: 10em;
+    width: 10em;
+    display: inline;
+    float: left;
+    margin: .5em;
+    z-index: 2;
+}
+
+

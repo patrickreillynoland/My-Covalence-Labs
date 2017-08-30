@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"></script>
+        <title>Shape Up or Shape Out</title>
+    </head>
+    <body>
+        <div id="inputs">
+            <h3>Square</h3>
+                <span>Side Length:</span>
+                <input type="number" id="sq-side" placeholder="Square"></input>
+                <button id="sq-insert">Insert Square</button>
+            <h3>Rectangle</h3>
+                <span>Width:</span>
+                <input type="number" id="rec-width" placeholder="Width"></input>
+                <span>Height:</span>
+                <input type="number" id="rec-height" placeholder="Height"></input>
+                <button id="rec-insert">Insert Rectangle</button>
+            <h3>Circle</h3>
+                <span>Radius:</span>
+                <input type="number" id="cir-radius"></input>
+                <button id="cir-insert">Insert Circle</button>
+            <h3>Triangle</h3>
+                <span>Height:</span>
+                <input type="number" id="tri-height"></input>
+                <button id="tri-insert">Insert Triangle</button>
+        </div>
+        <div id="information">
+            <h4>Shape Name: <span id="info-shape"></span></h4>
+            <h4>Width: <span id="info-width"></span></h4>
+            <h4>Height: <span id="info-height"></span></h4>
+            <h4>Radius: <span id="info-radius"></span></h4>
+            <h4>Area: <span id="info-area"></span></h4>
+            <h4>Perimeter: <span id="info-perimeter"></span></h4>
+        </div>
+        <div id="display"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
